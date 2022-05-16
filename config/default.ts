@@ -1,0 +1,29 @@
+export default {
+  port: 1337,
+  dbUri:
+    "mongodb+srv://guneyural0:guneyural0@cluster0.9ma6e.mongodb.net/Cluster0?retryWrites=true&w=majority",
+  saltWorkFactor: 10,
+  privateKey: `-----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQCBC5cwF23QdaR+4idz2hGfbYqWJf3+ewh5kdYNq56xZ8tR8p4U
+IVK1DarisMNUWHf9LokJgSEfOdqZpWbay8KYBu0o7xy/QH23mBqGuzuZ3R+dQSEf
+Ja475/ElbPDcRBjZIpFZTTyUSDZmWd9hiaAeUvsCp49OAH8ElJthluGbWQIDAQAB
+AoGAV5dKc/YzL7/qe8V+CgEG3TQ5UVlQYh+YzQvUQ0suWDSfqWwJKJjFzucMCvr4
+WpQCPfQMSEtB9DQM0SWX/wM3fYoNNJBozlCDMxrCWPYOpk3XpROb30/9q7vMqKYM
+JoGIyAScr9IyfQ+rybGD3aTGstkjFgkhOyRIFHepGoFK19ECQQDE6L9NjZHPlSxK
+qufv8E0HIATr9s5SCREtB5vTwdRLMSSdhE8cZYLQmw/q9OhWx7GnWPGwr4Q7jMQg
+Rizlst5PAkEAp8VNE93GAb0KGw+bheR+L9r6K36Yq+KD9+OA+TduGaSYJtP40UXX
+px06mF118vzAXs5KoIJZs535GG4N773p1wJBAKIVW/NAhzex+QV1bPnqed1Vk/eP
+7wFECWlhi/lg4ZkLWLJ4SI59WJLSMOYctmtIcYnpAvmHYHeMRZyzZx2kgK0CQEOL
+6lZ/ScNVawYuKH2l2zBFR8fPNoSttFhPnpO4P3nPjPrFCT6okgTUfczuhBiKrqD9
+CYrKMHdiuPGfDbliiw0CQCOmi/EfxFhx/B2s+0bSNB6BP+06eYFmW46waybdtzWB
+7eIithXygSpyOS5M4Z5+5Uu6wVdSYlbk0Dl2LCm8zDc=
+-----END RSA PRIVATE KEY-----`,
+  publicKey: `-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCBC5cwF23QdaR+4idz2hGfbYqW
+Jf3+ewh5kdYNq56xZ8tR8p4UIVK1DarisMNUWHf9LokJgSEfOdqZpWbay8KYBu0o
+7xy/QH23mBqGuzuZ3R+dQSEfJa475/ElbPDcRBjZIpFZTTyUSDZmWd9hiaAeUvsC
+p49OAH8ElJthluGbWQIDAQAB
+-----END PUBLIC KEY-----`,
+  accessTokenTtl: "15m",
+  refreshTokenTtl: "1y",
+};
